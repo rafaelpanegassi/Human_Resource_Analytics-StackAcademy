@@ -10,7 +10,7 @@ from minio import Minio
 DEFAULT_ARGS = {
     'owner': 'Airflow',
     'depends_on_past': False,
-    'start_date': datetime(2021, 1, 13),
+    'start_date': datetime(2023, 1, 1),
 }
 
 dag = DAG('etl_employees_dataset', 

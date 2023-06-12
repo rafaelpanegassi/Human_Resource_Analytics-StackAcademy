@@ -136,3 +136,229 @@
                  GradientBoostingClassifier(random_state=4510)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
 2021-11-09 18:41:27,424:INFO:Checking exceptions
 2021-11-09 18:41:27,424:INFO:Preloading libraries
+2023-06-12 20:03:05,220:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 20:03:05,221:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 20:03:05,221:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 20:03:05,221:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 20:03:05,466:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-06-12 20:03:05,773:INFO:Initializing load_model()
+2023-06-12 20:03:05,774:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:03:10,644:INFO:Initializing load_model()
+2023-06-12 20:03:10,644:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:03:11,351:INFO:Initializing load_model()
+2023-06-12 20:03:11,352:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:04:14,969:INFO:Initializing load_model()
+2023-06-12 20:04:14,970:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:04:15,005:INFO:Initializing predict_model()
+2023-06-12 20:04:15,005:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fd01aa825b0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=314))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7fd01a933b80>)
+2023-06-12 20:04:15,006:INFO:Checking exceptions
+2023-06-12 20:04:15,006:INFO:Preloading libraries
+2023-06-12 20:04:15,006:INFO:Set up data.
+2023-06-12 20:04:15,008:INFO:Set up index.
+2023-06-12 20:04:15,176:WARNING:/home/rafael/Documentos/GitHub/Human_Resource_Analytics-StackAcademy/projeto/app/app.py:94: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-12 20:04:21,692:INFO:Initializing load_model()
+2023-06-12 20:04:21,692:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:04:23,906:INFO:Initializing load_model()
+2023-06-12 20:04:23,906:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:04:29,018:INFO:Initializing load_model()
+2023-06-12 20:04:29,018:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:04:30,881:INFO:Initializing load_model()
+2023-06-12 20:04:30,881:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:04:31,009:INFO:Initializing load_model()
+2023-06-12 20:04:31,010:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:04:31,046:INFO:Initializing predict_model()
+2023-06-12 20:04:31,046:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fd019710040>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=314))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7fd01a8e3c10>)
+2023-06-12 20:04:31,046:INFO:Checking exceptions
+2023-06-12 20:04:31,046:INFO:Preloading libraries
+2023-06-12 20:04:31,047:INFO:Set up data.
+2023-06-12 20:04:31,048:INFO:Set up index.
+2023-06-12 20:04:31,165:WARNING:/home/rafael/Documentos/GitHub/Human_Resource_Analytics-StackAcademy/projeto/app/app.py:94: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-12 20:04:36,494:INFO:Initializing load_model()
+2023-06-12 20:04:36,495:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:04:36,624:INFO:Initializing load_model()
+2023-06-12 20:04:36,624:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:04:36,657:INFO:Initializing predict_model()
+2023-06-12 20:04:36,658:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fd01aa76fa0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=314))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7fd01887edc0>)
+2023-06-12 20:04:36,658:INFO:Checking exceptions
+2023-06-12 20:04:36,658:INFO:Preloading libraries
+2023-06-12 20:04:36,659:INFO:Set up data.
+2023-06-12 20:04:36,660:INFO:Set up index.
+2023-06-12 20:04:36,774:WARNING:/home/rafael/Documentos/GitHub/Human_Resource_Analytics-StackAcademy/projeto/app/app.py:94: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-12 20:06:15,650:INFO:Initializing load_model()
+2023-06-12 20:06:15,650:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:06:15,685:INFO:Initializing predict_model()
+2023-06-12 20:06:15,685:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7fd01a8e5a90>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=314))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7fd018872790>)
+2023-06-12 20:06:15,685:INFO:Checking exceptions
+2023-06-12 20:06:15,685:INFO:Preloading libraries
+2023-06-12 20:06:15,686:INFO:Set up data.
+2023-06-12 20:06:15,687:INFO:Set up index.
+2023-06-12 20:06:15,806:WARNING:/home/rafael/Documentos/GitHub/Human_Resource_Analytics-StackAcademy/projeto/app/app.py:94: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-12 20:06:45,204:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 20:06:45,205:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 20:06:45,205:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 20:06:45,205:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-06-12 20:06:45,355:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-06-12 20:06:45,613:INFO:Initializing load_model()
+2023-06-12 20:06:45,613:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:06:50,808:INFO:Initializing load_model()
+2023-06-12 20:06:50,809:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:06:54,592:INFO:Initializing load_model()
+2023-06-12 20:06:54,593:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:06:56,782:INFO:Initializing load_model()
+2023-06-12 20:06:56,782:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:06:56,901:INFO:Initializing load_model()
+2023-06-12 20:06:56,901:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:06:56,938:INFO:Initializing predict_model()
+2023-06-12 20:06:56,938:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f18018344c0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=314))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f18016e3e50>)
+2023-06-12 20:06:56,939:INFO:Checking exceptions
+2023-06-12 20:06:56,939:INFO:Preloading libraries
+2023-06-12 20:06:56,939:INFO:Set up data.
+2023-06-12 20:06:56,941:INFO:Set up index.
+2023-06-12 20:06:57,063:WARNING:/home/rafael/Documentos/GitHub/Human_Resource_Analytics-StackAcademy/projeto/app/app.py:94: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-12 20:07:16,434:INFO:Initializing load_model()
+2023-06-12 20:07:16,434:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:07:16,568:INFO:Initializing load_model()
+2023-06-12 20:07:16,568:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:07:16,605:INFO:Initializing predict_model()
+2023-06-12 20:07:16,606:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f18016f8fa0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=314))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f18016ccd30>)
+2023-06-12 20:07:16,606:INFO:Checking exceptions
+2023-06-12 20:07:16,606:INFO:Preloading libraries
+2023-06-12 20:07:16,606:INFO:Set up data.
+2023-06-12 20:07:16,608:INFO:Set up index.
+2023-06-12 20:07:16,724:WARNING:/home/rafael/Documentos/GitHub/Human_Resource_Analytics-StackAcademy/projeto/app/app.py:94: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-12 20:07:22,342:INFO:Initializing load_model()
+2023-06-12 20:07:22,342:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:07:22,459:INFO:Initializing load_model()
+2023-06-12 20:07:22,460:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:07:22,493:INFO:Initializing predict_model()
+2023-06-12 20:07:22,494:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f18018a1ee0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=314))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f180163f700>)
+2023-06-12 20:07:22,494:INFO:Checking exceptions
+2023-06-12 20:07:22,494:INFO:Preloading libraries
+2023-06-12 20:07:22,494:INFO:Set up data.
+2023-06-12 20:07:22,496:INFO:Set up index.
+2023-06-12 20:07:22,611:WARNING:/home/rafael/Documentos/GitHub/Human_Resource_Analytics-StackAcademy/projeto/app/app.py:94: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
+2023-06-12 20:07:25,786:INFO:Initializing load_model()
+2023-06-12 20:07:25,786:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:07:27,807:INFO:Initializing load_model()
+2023-06-12 20:07:27,807:INFO:load_model(model_name=model, platform=None, authentication=None, verbose=True)
+2023-06-12 20:07:27,841:INFO:Initializing predict_model()
+2023-06-12 20:07:27,842:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f180045c9d0>, estimator=Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['yearsAtCompany'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('balance',
+                 TransformerWrapper(transformer=FixImbalancer(estimator=SMOTE()))),
+                ('normalize', TransformerWrapper(transformer=MinMaxScaler())),
+                ('actual_estimator',
+                 GradientBoostingClassifier(random_state=314))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7f18004b33a0>)
+2023-06-12 20:07:27,842:INFO:Checking exceptions
+2023-06-12 20:07:27,842:INFO:Preloading libraries
+2023-06-12 20:07:27,842:INFO:Set up data.
+2023-06-12 20:07:27,843:INFO:Set up index.
+2023-06-12 20:07:27,959:WARNING:/home/rafael/Documentos/GitHub/Human_Resource_Analytics-StackAcademy/projeto/app/app.py:94: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+
